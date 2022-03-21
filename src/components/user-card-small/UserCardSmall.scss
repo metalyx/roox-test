@@ -1,0 +1,46 @@
+@import '../../styles/variables/all.scss';
+
+.user-card-small__wrapper {
+  background-color: $color--gray-user-card-small;
+  border-radius: 8px;
+
+  width: 420px;
+  min-width: 170px;
+  height: 73px;
+  box-sizing: border-box;
+
+  padding-top: 9px;
+  padding-left: 10px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      @include text-roboto-11;
+
+      display: block;
+      margin-bottom: 8px;
+
+      span.description {
+        @include text-roboto-11;
+        color: $color--gray-text;
+      }
+
+      span.value {
+        margin-left: 7px;
+      }
+    }
+
+    li.more {
+      display: block;
+      width: min-content;
+      position: relative;
+      left: calc(100% - 70px);
+      bottom: 20px;
+      cursor: pointer;
+      color: $color--blue;
+    }
+  }
+}

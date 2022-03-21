@@ -1,0 +1,22 @@
+@import '../../../styles/variables/all.scss';
+
+.user-card-large__wrapper {
+  position: absolute;
+  margin-left: 152px;
+  width: calc(100% - 152px);
+  box-sizing: border-box;
+
+  padding-top: 19px;
+  padding-left: 36px;
+  padding-right: 45px;
+
+  .user-card-large__head {
+    display: flex;
+    justify-content: space-between;
+    width: 438px;
+
+    h1 {
+      @include text-roboto-14-bold;
+    }
+  }
+}

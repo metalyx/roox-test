@@ -1,0 +1,27 @@
+@import '../../styles/variables/all.scss';
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 211px;
+  height: 40px;
+
+  margin-bottom: 6px;
+
+  label {
+    @include text-roboto-8;
+    margin-bottom: 3px;
+  }
+
+  input {
+    @include text-roboto-10;
+    height: 22px;
+    box-sizing: border-box;
+    border: 1px solid $color--gray-input-border;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+  }
+
+}

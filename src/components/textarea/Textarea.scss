@@ -1,0 +1,23 @@
+@import '../../styles/variables/all.scss';
+
+.textarea__wrapper {
+  label {
+    @include text-roboto-8;
+  }
+
+  .textarea__textarea {
+    width: 420px;
+    height: 55px;
+    margin: 0;
+
+    outline: none;
+    resize: none;
+    
+    box-sizing: border-box;
+
+    border: 1px solid $color--gray-input-border;
+    border-radius: 5px;
+
+    @include text-roboto-10;
+  }
+}

@@ -1,0 +1,22 @@
+@import '../../../styles/variables/all.scss';
+
+.user-card-large-form__wrapper {
+  width: 438px;
+  height: 463px;
+  box-sizing: border-box;
+  margin-top: 10px;
+
+  border: 1px solid $color--gray-user-card-small;
+  border-radius: 8px;
+
+  padding-top: 9px;
+  padding-left: 12px;
+
+}
+
+.large-card__submit-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  width: 438px;
+}

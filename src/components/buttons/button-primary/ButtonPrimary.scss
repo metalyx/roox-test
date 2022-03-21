@@ -1,0 +1,18 @@
+@import '../../../styles/variables/all.scss';
+
+.button-primary__button {
+  @include text-roboto-12;
+
+  display: block;
+
+  background-color: $color--blue;
+
+  color: $color--white;
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 5px 15px;
+
+  cursor: pointer;
+}

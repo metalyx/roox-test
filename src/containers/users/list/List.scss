@@ -1,0 +1,25 @@
+@import '../../../styles/variables/all.scss';
+
+.list__wrapper {
+  position: absolute;
+  margin-left: 152px;
+  width: calc(100% - 152px);
+  height: 100vh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+
+  padding-top: 19px;
+  padding-left: 34px;
+
+  h1 {
+    @include text-roboto-14-bold;
+  }
+
+  .user-card-small__wrapper {
+    margin: 24px 0;
+  }
+
+  .user-card-small__wrapper:nth-child(2) {
+    margin-top: 17px;
+  }
+}
